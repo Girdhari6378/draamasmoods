@@ -48,3 +48,23 @@ input[type="text"] {
   color: white;
   text-decoration: none;
 }
+.main-menu {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background-color: #e50914;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.main-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  background: #b30000;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.main-menu a:hover {
+  background: #990000;
+}
